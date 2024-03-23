@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,5 +19,131 @@
 
 /* circle */
 --Violet_blue: hsla(256, 72%, 46%, 1);
---Persian_blue: hsla(241, 72%, 46%, 0)
+--Persian_blue: hsla(241, 72%, 46%, 0);
+
+/* nuetral */
+--White: hsl(0, 0%, 100%);
+--Pale_blue: hsl(221, 100%, 96%);
+--Light_Pale_blue: hsl(221, 100%, 96%, 0.5);
+--Light_lavender: hsl(241, 100%, 89%);
+--Dark_gray_blue: hsl(224, 30%, 27%);
+
+--ff-hanken: "Hanken Grotesk", sans-serif;
+
+}
+
+body {
+    background-color: var(--White);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ff-hanken);
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    width: 620px;
+    box-shadow: 7px 3px 15px 7px var(--Light_lavender);
+}
+
+.card {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+    border-radius: 20px;
+    align-items: center;
+    background: linear-gradient(0deg, hsl(241, 81%, 54%, 1), hsl(252, 100%, 67%, 0.9));
+}
+
+
+.card p:first-child {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.col {
+    color: var(--Light_Pale_blue);
+    font-size: 18px;
+    text-align: center;
+}
+
+.w {
+    color: var(--White);
+}
+
+
+.circle {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0.1));
+    padding: 45px 60px;
+    border-radius: 50%;
+}
+
+.circle p:first-child {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.summary {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 2;
+}
+
+.summary h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.set {
+    display: flex;
+    gap: 20px;
+}
+
+.reaction {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--Green_teal);
+    /* margin: 50px 0; */
+}
+
+.points {
+    padding: 15px;
+    border-radius: 12px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.flex p {
+    color: var(--Light_Pale_blue);
+}
+.button {
+    text-align: center;
+}
+
+button {
+    padding: 15px 21px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    color: var(--White);
+    background-color: var(--Light_royal_blue);
 }
