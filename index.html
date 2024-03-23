@@ -1,47 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Results summary component</title>
 
-  Your Result
-  76
-  of 100
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="card">
+          <p class="col">Your Result</p>
+          <div class="circle">
+            <p class="w">76</p>
+            <p class="col">of 100</p>
+          </div>
+            <h3 class="w">Great</h3>
+            <p class="col">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+        </div>
+        <div class="summary">
+          <h3>Summary</h3>
+           <div class="reaction flex points">
+            <div class="set">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <p>Reaction</p>
+            </div>
+            <p><span>80</span> / 100</p> 
+          </div>
+          <div class="memory flex points">
+            <div class="set">
 
-  Reaction
-  80 / 100
+              <img src="assets/images/icon-memory.svg" alt="">
+              <p>Memory</p> 
+            </div>
+            <p><span>92</span> / 100</p> 
+          </div>     
+          <div class="verbal flex points">
+            <div class="set">
 
-  Memory
-  92 / 100
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <p>Verbal</p>
+            </div>
+            <p><span>61</span> / 100</p>
+          </div>
+          <div class="visual flex points">
+            <div class="set">
 
-  Verbal
-  61 / 100
+              <img src="assets/images/icon-visual.svg" alt="">
+              <p>Visual</p>
+            </div>
+            <p><span>72</span> / 100</p>
+          </div>
+          <div class="button">
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
