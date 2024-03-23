@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Light_red: hsl(0, 100%, 67%);
+--Orangey_yellow: hsl(39, 100%, 56%);
+--Green_teal: hsl(166, 100%, 37%);
+--Cobalt_blue: hsl(234, 85%, 45%);
+
+/* gradients */
+/* background */
+--Light_slate_blue: hsl(252, 100%, 67%);
+--Light_royal_blue: hsl(241, 81%, 54%);
+
+/* circle */
+--Violet_blue: hsla(256, 72%, 46%, 1);
+--Persian_blue: hsla(241, 72%, 46%, 0)
+}
