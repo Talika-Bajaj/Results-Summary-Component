@@ -1,193 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --Light_red: hsl(0, 100%, 67%);
---Orangey_yellow: hsl(39, 100%, 56%);
---Green_teal: hsl(166, 100%, 37%);
---Cobalt_blue: hsl(234, 85%, 45%);
+  --Light_red: hsl(0, 100%, 67%);
+  --Orangey_yellow: hsl(39, 100%, 56%);
+  --Green_teal: hsl(166, 100%, 37%);
+  --Cobalt_blue: hsl(234, 85%, 45%);
 
-/* gradients */
-/* background */
---Light_slate_blue: hsl(252, 100%, 67%);
---Light_royal_blue: hsl(241, 81%, 54%);
+  /* gradients */
+  /* background */
+  --Light_slate_blue: hsl(252, 100%, 67%);
+  --Light_royal_blue: hsl(241, 81%, 54%);
 
-/* circle */
---Violet_blue: hsla(256, 72%, 46%, 1);
---Persian_blue: hsla(241, 72%, 46%, 0);
+  /* circle */
+  --Violet_blue: hsla(256, 72%, 46%, 1);
+  --Persian_blue: hsla(241, 72%, 46%, 0);
 
-/* nuetral */
---White: hsl(0, 0%, 100%);
---Pale_blue: hsl(221, 100%, 96%);
---Light_Pale_blue: hsl(221, 100%, 96%, 0.5);
---Light_lavender: hsl(241, 100%, 89%);
---Dark_gray_blue: hsl(224, 30%, 27%);
+  /* nuetral */
+  --White: hsl(0, 0%, 100%);
+  --Pale_blue: hsl(221, 100%, 96%);
+  --Light_Pale_blue: hsl(221, 100%, 96%, 0.5);
+  --Light_lavender: hsl(241, 100%, 89%);
+  --Dark_gray_blue: hsl(224, 30%, 27%);
 
---ff-hanken: "Hanken Grotesk", sans-serif;
-
+  --ff-hanken: "Hanken Grotesk", sans-serif;
 }
 
 body {
-    background-color: var(--White);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--ff-hanken);
+  background-color: var(--White);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-hanken);
 }
 
 .container {
-    /* border: 1px solid red; */
-    display: flex;
-    width: 650px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 7px 3px 15px 7px var(--Light_lavender);
+  /* border: 1px solid red; */
+  display: flex;
+  width: 650px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 7px 3px 15px 7px var(--Light_lavender);
 }
 
 .card {
-    padding: 35px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 2;
-    border-radius: 20px;
-    align-items: center;
-    background: linear-gradient(0deg, hsl(241, 81%, 54%, 1), hsl(252, 100%, 67%, 0.9));
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 2;
+  border-radius: 20px;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%, 1),
+    hsl(252, 100%, 67%, 0.9)
+  );
 }
 
-
 .card p:first-child {
-    font-size: 21px;
-    font-weight: 600;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .col {
-    color: var(--Light_Pale_blue);
-    font-size: 18px;
-    text-align: center;
+  color: var(--Light_Pale_blue);
+  font-size: 18px;
+  text-align: center;
 }
 
 .w {
-    color: var(--White);
+  color: var(--White);
 }
 
-
 .circle {
-    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0.1));
-    padding: 45px 60px;
-    border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0.1)
+  );
+  padding: 45px 60px;
+  border-radius: 50%;
 }
 
 .circle p:first-child {
-    font-size: 38px;
-    font-weight: 800;
+  font-size: 38px;
+  font-weight: 800;
 }
 
 h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .summary {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    flex: 2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 2;
 }
 
 .summary h3 {
-    font-size: 24px;
-    font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .reaction {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    width: 100%;
-    background-color: hsla(0, 100%, 67%, 0.07);
-    /* margin: 50px 0; */
+  width: 100%;
+  background-color: hsla(0, 100%, 67%, 0.07);
+  /* margin: 50px 0; */
 }
 .verbal {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    width: 100%;
-    background-color: hsla(166, 100%, 37%,0.07);
-    /* margin: 50px 0; */
+  width: 100%;
+  background-color: hsla(166, 100%, 37%, 0.07);
+  /* margin: 50px 0; */
 }
 .visual {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    width: 100%;
-    background-color: hsla(234, 85%, 45%,0.07);
-    /* margin: 50px 0; */
+  width: 100%;
+  background-color: hsla(234, 85%, 45%, 0.07);
+  /* margin: 50px 0; */
 }
 
 .points {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0;
-    border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  border-radius: 12px;
 }
 
 .set {
-    display: flex;
-    gap: 8px;
+  display: flex;
+  gap: 8px;
 }
 
 .react {
-    color: var(--Light_red);
-    font-weight: 600;
+  color: var(--Light_red);
+  font-weight: 600;
 }
 
 .memory {
-    font-weight: 600;
-    color: var(--Orangey_yellow);
+  font-weight: 600;
+  color: var(--Orangey_yellow);
 }
 
 .verb {
-    font-weight: 600;
-    color: var(--Green_teal);
+  font-weight: 600;
+  color: var(--Green_teal);
 }
 
 .vis {
-    font-weight: 600;
-    color: var(--Cobalt_blue);
+  font-weight: 600;
+  color: var(--Cobalt_blue);
 }
 .marks {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .total {
-    font-weight: 700;
-    color: var(--Light_lavender);
-    margin-left: 6px;
-
+  font-weight: 700;
+  color: var(--Light_lavender);
+  margin-left: 6px;
 }
 .button {
-    text-align: center;
-    margin-top: 8px;
+  text-align: center;
+  margin-top: 8px;
 }
 
 button {
-    padding: 15px 21px;
-    width: 100%;
-    border-radius: 30px;
-    border: none;
-    font-size: 17px;
-    color: var(--White);
-    background-color: var(--Dark_gray_blue);
+  padding: 15px 21px;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  color: var(--White);
+  background-color: var(--Dark_gray_blue);
 }
 
 @media screen and (max-width: 700px) {
-    .container {
-        flex-direction: column;
-        width: 90vw;
-        margin: 20px auto;
-    }
+  .container {
+    flex-direction: column;
+    width: 90vw;
+    margin: 20px auto;
+  }
 }
