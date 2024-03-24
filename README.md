@@ -1,9 +1,13 @@
-# Frontend Mentor - Results summary component
+ # Frontend Mentor - Results summary component
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Hi! 👋
+This is my Fifth Frontend Mentor Coding Challenge.
+In this challenge I created a Results summary component that displays the result: total marks and marks in different subjects in a responsive format.
 
+Layout Used: Flexbox Layouts
+<!--
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
@@ -94,4 +98,4 @@ We love receiving feedback! We're always looking to improve our challenges and o
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+**Have fun building!** 🚀 -->
