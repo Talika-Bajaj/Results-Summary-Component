@@ -55,7 +55,7 @@ main {
 }
 
 .left-side {
-  padding: 50px;
+  padding: 40px 50px;
   display: flex;
   flex-direction: column;
   gap: 17px;
@@ -106,7 +106,7 @@ main {
 }
 
 .right-side {
-  padding: 50px 40px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
@@ -176,7 +176,7 @@ main {
 }
 
 .marks {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .total {
